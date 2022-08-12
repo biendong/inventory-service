@@ -1,10 +1,10 @@
-package vn.nashtech.inventory.inventory.database.model;
+package vn.nashtech.inventory.inventory.api.dto;
 
 import lombok.Data;
+import vn.nashtech.inventory.inventory.database.model.TypeInventory;
 
 @Data
-public class Inventory {
-    private Long id;
+public class InventoryRequest {
     private Long productId;
     private TypeInventory type;
     private Double costPrice;

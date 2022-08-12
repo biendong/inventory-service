@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Configuration
 public class TokenConfig {
-    @Bean
+//    @Bean
     public String getTokenFromRequest(HttpServletRequest request) {
         String bearerToken = request.getHeader("Authorization");
         // Kiểm tra xem header Authorization có chứa thông tin không
